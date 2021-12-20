@@ -20,6 +20,11 @@ ul {
     list-style: none;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -35,7 +40,7 @@ ul {
     background-position: center;
 }
 
-.jumbotron .container {
+.container {
     max-width: 1024px;
     margin: 0 auto;
     padding: 20px 10px;
@@ -48,6 +53,13 @@ ul {
 .jumbotron .container .row-navigation .col6 {
     width: 60%;
     text-align: center;
+}
+
+/* logo */
+
+#logo {
+    width: 124px;
+    height: 34px;
 }
 
 /* NavBar */
@@ -110,4 +122,24 @@ ul {
 
 .button.open {
     background-color: #23272a;
+}
+
+
+/* first section */
+
+.container .row-section-a {
+    min-height: 450px;
+    padding: 50px 25px;
+}
+
+.container .row-section-a .col-section-a {
+    width: 60%;
+}
+
+.container .row-section-a .col-section-b {
+    width: 40%;
+}
+
+.container .row-section-a [class^="col-"] {
+    float: left;
 }
