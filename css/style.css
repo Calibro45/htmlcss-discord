@@ -75,6 +75,39 @@ ul {
 
 .button.login {
     background-color: white;
+    color: #000;
 }
 
+/* title section */
 
+.row-title .title {
+    color: #fff;
+    text-align: center;
+    padding: 100px 150px;
+    font-size: 18px;
+}
+
+.row-title .title h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.row-title .title p {
+    line-height: 1.6;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+/* bottoni download */
+
+.fas.fa-long-arrow-alt-down {
+    padding-right: 5px;
+}
+
+.download .button.login {
+    margin-right: 20px;
+}
+
+.button.open {
+    background-color: #23272a;
+}
