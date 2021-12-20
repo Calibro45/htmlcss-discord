@@ -163,7 +163,7 @@ img {
 
 /*  section variante */
 
-.wave .background-variante {
+.background-variante {
     background-color: #e6e6e6;
 }
 
@@ -196,6 +196,15 @@ img {
 
 /* quarta sezione col-6 uno*/
 
+.wave-alt::before {
+    content: "";
+    display: block;
+    background-image: url("../img/wave.svg");
+    width: 100%;
+    height: 100px;
+    opacity: 0.1;
+}
+
 .row-section-alt .col-6 .module-c-title {
     padding: 150px 50px 60px;
     text-align: center;
@@ -223,7 +232,26 @@ img {
 
 /* quarta sezione col 6 download button */
 
-.button.mac-down {
+.button.violet {
     color: #fff;
     background-color: #8ea1e1;
 }
+
+/* footer */
+
+.bkcg-footer {
+    background-color: #23272a;
+}
+
+.container .row-footer-top {
+    min-height: 340px;
+}
+
+.container .row-footer-bottom {
+    min-height: 60px;
+}
+
+.row-footer-top .col-5 {
+    width: 15%;
+}
+
