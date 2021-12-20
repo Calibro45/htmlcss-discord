@@ -11,6 +11,9 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* header */
+
 .jumbotron {
     background-image: url(../img/jumbo.png);
     min-height: 500px;
@@ -19,5 +22,6 @@ html {
 }
 
 .jumbotron .container {
-    
+    max-width: 1024px;
+    margin: 0 auto;
 }
