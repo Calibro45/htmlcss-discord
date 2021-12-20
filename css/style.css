@@ -163,3 +163,19 @@ img {
 
 /*  section variante */
 
+.wave .background-variante {
+    background-color: #e6e6e6;
+}
+
+.wave::before, .wave::after {
+    content: "";
+    display: block;
+    background-image: url("../img/wave.svg");
+    width: 100%;
+    height: 100px;
+    opacity: 0.1;
+}
+
+.wave::after {
+    transform: rotate(0.5turn);
+}
