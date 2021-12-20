@@ -20,6 +20,12 @@ ul {
     list-style: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* header */
 
 .jumbotron {
@@ -32,5 +38,41 @@ ul {
 .jumbotron .container {
     max-width: 1024px;
     margin: 0 auto;
+    padding: 20px 10px;
 }
+
+.jumbotron .container .row-navigation .col3 {
+    width: calc(40% / 2);
+}
+
+.jumbotron .container .row-navigation .col6 {
+    width: 60%;
+    text-align: center;
+}
+
+/* NavBar */
+
+.container .row-navigation [class^="col"] {
+    float: left;
+}
+
+.col6.navbar nav .main-navbar li {
+    display: inline-block;
+    color: #fff;
+    padding: 0 10px;
+}
+
+/* signin Button */
+
+.col3.signin {
+    text-align: right;
+}
+
+.button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+
 
