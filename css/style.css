@@ -25,6 +25,11 @@ img {
     height: 100%;
 }
 
+select {
+    background-color: #23272a;
+    border: none;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -251,7 +256,44 @@ img {
     min-height: 60px;
 }
 
+.row-footer-top .col-5-a {
+    width: 40%;
+}
+
 .row-footer-top .col-5 {
     width: 15%;
 }
 
+/* row footer top */
+
+.row-footer-top .col-5-a h2 {
+    color: #6e84d1;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* language select */
+
+.col-5-a .select-menu select {
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#ita-flag {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+}
+
+/* social */
+
+.social {
+    color: #fff;
+}
+
+.social span i {
+    margin-right: 30px;
+}
+
+/* info utili */
