@@ -297,3 +297,11 @@ select {
 }
 
 /* info utili */
+
+.row-footer-top .col-5 .info-utili h4 {
+    color: #6e84d1;
+}
+
+.row-footer-top .col-5 .info-utili {
+    color: #f5f6f6;
+}
