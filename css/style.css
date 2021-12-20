@@ -184,18 +184,46 @@ img {
 
 .container .row-section-alt {
     min-height: 1120px;
-    border: 1px solid black;
 }
 
 .container .row-section-alt .col-6 {
     min-height: 280px;
-    border: 1px solid black;
 }
 
 .container .row-section-alt .col-3 {
     min-height: 540px;
-    border: 1px solid black;
 }
 
 /* quarta sezione col-6 uno*/
 
+.row-section-alt .col-6 .module-c-title {
+    padding: 150px 50px 60px;
+    text-align: center;
+    }
+
+.col-6 .module-c-title h2 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.col-6 .module-c-title p {
+    line-height: 1.6;
+}
+
+/* quarta sezione col-3  */
+
+.row-section-alt .col-6 .module-c-title .star {
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 30px 10px;
+    margin: 0 125px 10px 125px;
+}
+
+/* quarta sezione col 6 download button */
+
+.button.mac-down {
+    color: #fff;
+    background-color: #8ea1e1;
+}
