@@ -128,18 +128,28 @@ img {
 /* first section */
 
 .container .row-section-a {
-    min-height: 450px;
+    min-height: 550px;
     padding: 50px 25px;
 }
 
 .container .row-section-a .col-section-a {
-    width: 60%;
+    width: calc(70% - 100px);
+    min-height: 430px;
+    margin-right: 100px;
 }
 
 .container .row-section-a .col-section-b {
-    width: 40%;
+    width: 30%;
+    min-height: 430px;
 }
 
 .container .row-section-a [class^="col-"] {
     float: left;
+}
+
+/* modulo img text */
+
+.col-section-b .module-b-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
 }
