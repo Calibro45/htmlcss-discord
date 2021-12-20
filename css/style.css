@@ -127,23 +127,26 @@ img {
 
 /* first section */
 
-.container .row-section-a {
+.container .row-section {
     min-height: 550px;
     padding: 50px 25px;
 }
 
-.container .row-section-a .col-section-a {
-    width: calc(70% - 100px);
+.container .row-section .col-section-a {
+    width: calc(60% - 100px);
     min-height: 430px;
+}
+
+.container .row-section div:first-child {
     margin-right: 100px;
 }
 
-.container .row-section-a .col-section-b {
-    width: 30%;
+.container .row-section .col-section-b {
+    width: 40%;
     min-height: 430px;
 }
 
-.container .row-section-a [class^="col-"] {
+.container .row-section [class^="col-"] {
     float: left;
 }
 
@@ -153,3 +156,10 @@ img {
     font-size: 40px;
     margin-bottom: 20px;
 }
+
+.module-b-text {
+    line-height: 1.5;
+}
+
+/*  section variante */
+
