@@ -11,6 +11,14 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style: none;
+}
 
 /* header */
 
@@ -25,3 +33,4 @@ html {
     max-width: 1024px;
     margin: 0 auto;
 }
+
