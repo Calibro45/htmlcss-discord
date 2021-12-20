@@ -258,10 +258,12 @@ select {
 
 .row-footer-top .col-5-a {
     width: 40%;
+    float: left;
 }
 
 .row-footer-top .col-5 {
     width: 15%;
+    float: left;
 }
 
 /* row footer top */
