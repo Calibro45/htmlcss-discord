@@ -179,3 +179,23 @@ img {
 .wave::after {
     transform: rotate(0.5turn);
 }
+
+/* quarta sezione */
+
+.container .row-section-alt {
+    min-height: 1120px;
+    border: 1px solid black;
+}
+
+.container .row-section-alt .col-6 {
+    min-height: 280px;
+    border: 1px solid black;
+}
+
+.container .row-section-alt .col-3 {
+    min-height: 540px;
+    border: 1px solid black;
+}
+
+/* quarta sezione col-6 uno*/
+
