@@ -62,7 +62,7 @@ select {
 
 /* logo */
 
-#logo {
+.logo {
     width: 124px;
     height: 34px;
 }
@@ -77,6 +77,7 @@ select {
     display: inline-block;
     color: #fff;
     padding: 0 10px;
+    line-height: 34px;
 }
 
 /* signin Button */
@@ -93,6 +94,7 @@ select {
 .button.login {
     background-color: white;
     color: #000;
+    line-height: 34px;
 }
 
 /* title section */
@@ -282,6 +284,8 @@ select {
     color: #fff;
     margin-bottom: 20px;
     display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
 }
 
 #ita-flag {
@@ -312,4 +316,22 @@ select {
 
 .row-footer-top .col-5 .info-utili ul li {
     padding-top: 10px;
+}
+
+/* footer logo */
+
+.row-footer-bottom {
+    border-top: 2px solid #6e84d1;
+}
+
+.row-footer-bottom .logo {
+    float: left;
+    margin-top: 20px;
+}
+
+/* footer button */
+
+.row-footer-bottom .button.violet {
+    float: right;
+    margin-top: 20px;
 }
